@@ -220,7 +220,6 @@ Each hydration directory contains the data and outputs associated with that hydr
 <pre>
 1H2O/
 ├── predictions.csv
-├── embeddings.npy
 ├── UMAP.png
 ├── network_2D.png
 └── network_3D.html
