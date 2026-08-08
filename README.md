@@ -209,55 +209,6 @@ Water molecules are positioned using their molecular coordinates. Persistent wat
 The interactive HTML files allow the molecular networks to be rotated, zoomed and inspected directly.
 </p>
 
-<hr>
-
-<h2>Repository structure</h2>
-
-<pre>
-PIL-GNN-Water-Environment/
-│
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── requirements.txt
-│
-├── data/
-│   ├── DMBA-HSO4/
-│   │   ├── 1H2O/
-│   │   ├── 2H2O/
-│   │   ├── 3H2O/
-│   │   ├── 4H2O/
-│   │   ├── 5H2O/
-│   │   └── 6H2O/
-│   │
-│   └── HA-HSO4/
-│       ├── 1H2O/
-│       ├── 2H2O/
-│       ├── 3H2O/
-│       ├── 4H2O/
-│       ├── 5H2O/
-│       └── 6H2O/
-│
-├── scripts/
-│   ├── gnn_training.py
-│   ├── predictions.py
-│   ├── embeddings.py
-│   ├── umap.py
-│   └── visualisation.py
-│
-├── results/
-│   ├── predictions/
-│   ├── embeddings/
-│   ├── UMAP/
-│   ├── networks_2D/
-│   └── networks_3D/
-│
-└── supplementary/
-    └── supplementary_data/
-</pre>
-
-<hr>
-
 <h2>Data structure</h2>
 
 <p>
@@ -268,7 +219,6 @@ Each hydration directory contains the data and outputs associated with that hydr
 
 <pre>
 1H2O/
-├── input.pdb
 ├── predictions.csv
 ├── embeddings.npy
 ├── UMAP.png
