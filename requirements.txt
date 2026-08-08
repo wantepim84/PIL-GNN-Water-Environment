@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+matplotlib
+networkx
+MDAnalysis
+scikit-learn
+umap-learn
+torch
+torch-geometric
+plotly
+hdbscan
